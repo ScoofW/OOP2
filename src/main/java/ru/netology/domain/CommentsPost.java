@@ -1,9 +1,9 @@
 package ru.netology.domain;
 
 public class CommentsPost {
-    private int idComments; // id комментария
-    private int idAuthorComments; // id автора
-    private String textComments; //текс коментария
+    private int idComments;
+    private int idAuthorComments;
+    private String textComments;
 
     public int getIdComments() {
         return idComments;

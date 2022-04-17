@@ -1,8 +1,8 @@
 package ru.netology.domain;
 
 public class ReasonComplaints {
-    private int idReasonComplaint; //id причины жалобы
-    private String reasonComplaint; //текст жалобы
+    private int idReasonComplaint;
+    private String reasonComplaint;
 
     public int getIdReasonComplaint() {
         return idReasonComplaint;

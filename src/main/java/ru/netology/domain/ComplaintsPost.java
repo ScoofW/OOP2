@@ -1,9 +1,9 @@
 package ru.netology.domain;
 
 public class ComplaintsPost {
-    private int idComplaint; // id жалобы
-    private int idAuthor; // id автора
-    private int idReasonComplaint; //id причины жалобы
+    private int idComplaint;
+    private int idAuthor;
+    private int idReasonComplaint;
 
     public int getIdComplaint() {
         return idComplaint;

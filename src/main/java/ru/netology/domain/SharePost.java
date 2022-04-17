@@ -1,9 +1,9 @@
 package ru.netology.domain;
 
 public class SharePost {
-    private int idSharePost; // id  поста
-    private int idSareAuthor; // id автора
-    private int SharePost; //счетчик
+    private int idSharePost;
+    private int idSareAuthor;
+    private int SharePost;
 
     public int getIdSharePost() {
         return idSharePost;

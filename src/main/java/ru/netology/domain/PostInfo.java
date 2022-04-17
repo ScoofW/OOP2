@@ -1,10 +1,10 @@
 package ru.netology.domain;
 
 public class PostInfo {
-    private int idPostInfo; // id поста
-    private int idAuthor; // id автора
-    private String textComplaint; //текс поста
-    private String urlPostInfo; //ссылка на вложение
+    private int idPostInfo;
+    private int idAuthor;
+    private String textComplaint;
+    private String urlPostInfo;
 
     public int getIdPostInfo() {
         return idPostInfo;

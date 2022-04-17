@@ -1,10 +1,10 @@
 package ru.netology.domain;
 
 public class LikePost {
-    private int count; // число пользователей, которым
-    private boolean userLikes; //  наличие отметки «Мне нравится»
-    private boolean canLikes;  //информация о том, может ли текущий пользователь поставить отметку
-    private boolean canPublish; //информация о том, может ли текущий пользователь сделать репост
+    private int count;
+    private boolean userLikes;
+    private boolean canLikes;
+    private boolean canPublish;
 
     public int getCount() {
         return count;

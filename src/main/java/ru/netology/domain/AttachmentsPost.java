@@ -1,9 +1,9 @@
 package ru.netology.domain;
 
 public class AttachmentsPost {
-    private int idAttachment; // id вложения
-    private int idAuthor; // id автора
-    private String urlAttachment; //ссылка на вложение
+    private int idAttachment;
+    private int idAuthor;
+    private String urlAttachment;
 
     public int getIdAttachment() {
         return idAttachment;

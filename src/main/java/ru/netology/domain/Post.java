@@ -6,7 +6,7 @@ public class Post {
     private int datePost;  // дата, время cоздания поста
     private PostInfo postInfo; //текст поста
     private boolean saveBookmark; // сохранить в закладках
-    private AttachmentsPost attachmentsPost; //вложения в пост (фото видео и т.д.)
+    private AttachmentsPost attachmentsPost; //вложения в пост
     private ComplaintsPost complaintsPost; //жалоба
     private LikePost likePost; //лайк
     private CommentsPost commentsPost; //комментарии
